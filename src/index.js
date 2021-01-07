@@ -11,7 +11,8 @@ import {
 
 // Icon
 import Feather from 'react-native-vector-icons/Feather';
-Feather.loadFont();
+import AntDesign from 'react-native-vector-icons/AntDesign';
+AntDesign.loadFont();
 
 class DropDownPicker extends React.Component {
     constructor(props) {
