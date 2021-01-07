@@ -548,8 +548,8 @@ DropDownPicker.defaultProps = {
     arrowColor: '#000',
     showArrow: true,
     arrowSize: 15,
-    customArrowUp: (size, color) => <Feather name="chevron-up" size={size} color={color} />,
-    customArrowDown: (size, color) => <Feather name="chevron-down" size={size} color={color} />,
+    customArrowUp: (size, color) => <Feather name="caretup" size={size} color={color} />,
+    customArrowDown: (size, color) => <Feather name="caretdown" size={size} color={color} />,
     customTickIcon: () => <Feather name="check" size={15} />,
     zIndex: 5000,
     disabled: false,
@@ -603,8 +603,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         position: 'absolute',
         width: '100%',
-        borderTopLeftRadius: 0,
-        borderTopRightRadius: 0,
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
     },
     dropDownItem: {
         paddingVertical: 8,
@@ -626,8 +626,8 @@ const styles = StyleSheet.create({
         borderWidth: 0
     },
     noBottomRadius: {
-        borderBottomLeftRadius: 0,
-        borderBottomRightRadius: 0,
+        borderBottomLeftRadius: 5,
+        borderBottomRightRadius: 5,
     },
     notFound: {
         marginVertical: 10,
