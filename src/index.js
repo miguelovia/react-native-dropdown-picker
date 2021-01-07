@@ -549,7 +549,7 @@ DropDownPicker.defaultProps = {
     showArrow: true,
     arrowSize: 15,
     customArrowUp: (size, color) => <Feather name="caretup" size={size} color={color} />,
-    customArrowDown: (size, color) => <Feather name="caretdown" size={size} color={color} />,
+    customArrowDown: (size, color) => <Feather name="chevron-down-circle" size={size} color={color} />,
     customTickIcon: () => <Feather name="check" size={15} />,
     zIndex: 5000,
     disabled: false,
